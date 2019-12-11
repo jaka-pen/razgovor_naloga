@@ -1,0 +1,24 @@
+1.        Izpis pokategorijah produktov (CATEGORIES.CATEGORYNAME) za leto 2015 nas zanima kakšna je bila:
+- prodaja (PRICE * QTY), 
+- povp. cena v kategoriji (prodaja / količina), 
+- število naročil, ki so imela to kategorijo izdelka
+
+kategorija | prodaja | povp_cena | st_narocil
+
+
+2. Izpiši število prodajnikov po razredih starosti (imaš datum rojstva BIRTHDATE) na današnji dan (razredi so < 25, 25 - 40, 40 - 60, nad 60).
+
+razred_starosti | število_prodajnikov
+
+
+3. Za vse prodajnike (EMPLOYEES tabela - ime in priimek) prikaži kolikšnaje billa prodaja (PRICE * QTY) med 1 in 15 februarjem 2015 in uredi od največjega do najmanjšega pri čemer izloči tiste, ki so bili med top 5 v januarju 2015.
+
+ime_priimek | prodaja 
+
+
+4. Prikaži prodajo po letih (ORDERS.ORDERDATE) in po mesecih ter delež posamezne prodaje znotraj leta.
+
+leto | mesec | prodaja | delez prodaje
+
+
+5. Izpiši vse produkte, ki so imeli vsaj eno prodajo vsak mesec v letu 2015.
